@@ -1,0 +1,6 @@
+@mixin para($color: black) {
+    color: $color;
+    font-size: $fontSize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+}

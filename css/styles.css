@@ -1,0 +1,33 @@
+div#container {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+header {
+    border: 1px solid red;
+}
+header div#logo {
+    float: left;
+
+}
+header div#search {
+    float: right;
+    margin-top: 60px;
+}
+header nav {
+    margin: 0 auto;
+}
+header nav ul {
+    list-style-type: none;
+    display: inline-block;
+}
+header nav ul li {
+    display: inline-block;
+    padding-right: 100px;
+    width: 30px;
+    height: 30px;
+}
+header nav ul li a {
+    display: inline-block;
+    width: 30px;
+    height: 50px;
+}

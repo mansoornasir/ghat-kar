@@ -1,0 +1,16 @@
+@import "./variables";
+@import "./mixins";
+
+
+p {
+    color: blue;
+    background-color: gray;
+    border: 1px solid blue;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+div {
+    @extend p;
+}

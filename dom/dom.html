@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using DOM</title>
+</head>
+<body>
+    <button onclick="load()">Load</button>
+    <div id="data"></div>
+    <script>
+        const data = [
+                        {id: 1, name: "Umar Gul"},
+                        {id: 2, name: "Zduha"},
+                        {id: 3, name: "Ibraim"},
+                        {id: 4, name: "Gulzar"},
+                    ]
+        const load = () => {
+            let html = "<table border=1>";
+                html+= "<tr><th>ID</th><th>Name</th></tr>";
+                data.map((d) => {
+                    return html+=`<tr>
+                                    <td style='color:red'>${d.id}</td>
+                                    <td>${d.name}</td>
+                                </tr>`
+                })
+                html+= "</table>";
+
+            document.getElementById("data").innerHTML = html;
+        }
+    </script>
+</body>
+</html>

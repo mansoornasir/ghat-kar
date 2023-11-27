@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Ajax</title>
+</head>
+<body>
+    <button onclick="loadData()">Load Data</button>
+    <script>
+        const loadData = () => {
+            
+            fetch("https://api.github.com/users")
+            .then((data) => data.json())
+            .then((users) => {
+                console.log(users)
+            })
+
+
+
+            // const xhttp = new XMLHttpRequest();
+
+            // xhttp.onreadystatechange = () => {
+            //     if(xhttp.status === 200 && xhttp.readyState === 4)  {
+            //         const data = xhttp.responseText;
+            //         const products = JSON.parse(data)
+                    
+                    
+            //     }
+            // }
+            // xhttp.open("GET", "https://fakestoreapi.com/products")
+            // xhttp.send();
+        }
+    </script>
+</body>
+</html>

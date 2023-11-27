@@ -1,0 +1,156 @@
+<html>
+    <head>
+        <style>
+            table
+                {
+                    border-collapse: collapse;
+                    border: 1px solid black;
+                    font-size: large;
+                }
+            table tr {
+                padding: 5px;
+            }
+            table td {
+                padding: 3px;
+            }
+            table th {
+                background-color: white;
+                color: black
+            }
+        </style>
+    </head>
+    <body>
+        
+        
+        <!-- <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam animi et nemo odit commodi vitae cumque totam hic, illum architecto at saepe quisquam repellendus cum labore! Officia ullam sunt rem.</p>
+
+        <p id="para2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, sit omnis, fuga ea distinctio doloremque et explicabo consequatur quod illo quae voluptatibus! Odio nulla unde quisquam sit? Molestiae, voluptatem nulla.</p>
+
+
+        <img src="./images/bluejay.png" width="100" height="100"/> -->
+
+        <!-- 
+            H1 - H6
+            P
+            Img
+            Lists
+        -->
+
+        <!-- <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ol>
+
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+
+        <dl>
+            <dt>Java</dt>
+            <dd>Lorem ipsum dolor sit amet <strong>consectetur</strong> adipisicing elit. Pariatur cum aliquam, sapiente voluptatibus esse aut itaque quas nemo debitis odio accusantium commodi <em>recusandae</em> excepturi vitae illo maiores dolorum quos voluptates.</dd>
+
+            <dt>C++</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero <u>animi</u> molestias nobis, dolorum voluptas rem saepe autem iure, omnis debitis nostrum aperiam eligendi <mark>laudantium</mark> expedita ratione ut id qui eum.</dd>
+
+            x<sup>2</sup> + y<sup>2</sup> + 2xy = log<sub>10</sub>
+
+        </dl> -->
+
+
+        <!-- anchor tag -->
+        <!-- <a href="https://www.google.com.pk" target="_blank">Google</a>
+        <a href="https://www.facebook.com">Facebook</a>
+        <a href="https://www.x.com">X</a>
+
+        <button>Login</button>
+
+
+        <br/>
+        <br/>
+        <br/>
+
+        <pre>
+            import javax.swing.JOptionPane;
+            public class Hello {
+                public static void main(String[] args) {
+                    JOptionPane.showMessageDialog(null, "Hello");
+                }
+            }
+        </pre> -->
+
+
+        <!-- TABLE -->
+        <!-- <table border="1">
+            <thead>
+                <th>ID</th>
+                <th>Name</th>
+                <th colspan="2">Address</th>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>1</td>
+                    <td>Muhammad Adnan</td>
+                    <td>Khyber</td>
+
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Muhammad Kamil</td>
+                    <td>Dir</td>
+
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Museerat</td>
+                    <td>Mardan</td>
+
+                </tr>
+            </tbody>
+            <tfoot>
+                <th colspan="2">Total</th>
+                <th>4</th>
+            </tfoot>
+        </table> -->
+
+        <form action="data.php" method="get">
+            <label for="name">Name</label>
+            <input type="text" id="name"/> <br/>
+            <label for="marks">Marks</label>
+            <input type="number" id="marks" /><br/>
+            <label for="email">Email</label>
+            <input type="email" id="email" /><br/>
+            <label id="gender">Gender</label>
+            Male 
+            <input type="radio" id="gender" name="gender" value="1"/>
+            Female 
+            <input type="radio" name="gender" checked value="0"/><br/>
+            
+            <label for="subjects">Subjects</label>
+            <select id="subjects">
+                <option value="1">Java</option>
+                <option value="2">C++</option>
+                <option value="3">Python</option>
+                <option selected value="4">Javascript</option>
+            </select>
+            <br/>
+            <label for="language">Lanugage</label>
+            Urdu <input type="checkbox" id="language" value="3"/>
+            English <input type="checkbox" checked value="4"/>
+
+            <br/>
+            <label for="password">Password</label>
+            <input type="password" id="password" />
+            <br/>
+            <label for="address">Address</label>
+            <textarea cols="10" rows="4"></textarea><br/>
+            <input type="submit" value="Register" />
+        </form>
+
+    </body>
+</html>
